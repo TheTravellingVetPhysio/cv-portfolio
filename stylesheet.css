@@ -7,9 +7,12 @@ html {
 }
 
 body {
-    background-color: #68869a;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: linear-gradient(175deg, #68869a 70%, #f8e595);
+    background-color: #68869a;
+    background-image: linear-gradient(175deg, #68869a 80%, #f8e595);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 .wrapper {
@@ -17,6 +20,7 @@ body {
     grid-template-columns: 4fr 1fr;
     grid-template-rows: auto auto auto auto auto; /* header nav main div footer */ 
     min-height: 100vh;
+    height: 100%;
 }
 
 header {
@@ -29,7 +33,7 @@ nav {
 
 nav > ul {
     list-style: none;
-    display: flexbox;
+    display: flex;
 }
 
 main {
@@ -45,11 +49,16 @@ footer {
     background-color: hsl(45, 5%, 85%, 100%);
 }
 
-#footerimg {
+div > #footerimg {
     grid-area: 4 / 1 / 5 / 3;
     background-color: hsl(45, 5%, 85%, 0%);
-    display: block;
+    background-image: url('/branding/footer-bjerge.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+<img src="branding/footer-bjerge.png" alt="Bjerge">
 
 h1 {
     color:aquamarine;
