@@ -18,7 +18,7 @@ body {
 .wrapper {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: auto auto auto auto auto; /* header nav main div footer */ 
+    grid-template-rows: auto auto 1fr auto auto; /* header nav main div footer */ 
     min-height: 100vh;
     height: 100%;
 }
@@ -52,7 +52,7 @@ footer {
 div > #footerimg {
     grid-area: 4 / 1 / 5 / 3;
     background-color: hsl(45, 5%, 85%, 0%);
-    background-image: url('/branding/footer-bjerge.png');
+    background-image: url('branding/footer-bjerge.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
