@@ -24,105 +24,80 @@
       <div class="header-img"></div>
       <nav>
         <ul>
-          <li><a href="index.html">Julie Herold</a></li>
+          <li><a class="currentlink" href="index.html">Julie Herold</a></li>
           <li><a href="cv.html">CV</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
       </nav>
       <main>
-        <h2>Here are some quick facts about me and ...</h2>
-        <div>
-          <h3>... how I spend my time:</h3>
-          <ul class="flex">
-            <li>Equine Physiotherapy</li>
-            <li>Homeschooling</li>
-            <li>Playing games</li>
-            <li>MTB - but only the blue tracks</li>
-            <li>Listening to audiobooks</li>
-            <li>Studying Software Engineer</li>
-            <li>Planning travels</li>
-            <li>Watching Netflix</li>
-            <li>Going for walks with myself, my horse and/or family</li>
-            <li>Snowboarding in powder &#9996</li>
-            <li>Drinking tea without licorice</li>
-          </ul>
-        </div>
-        <div>
-          <h3>... games I like:</h3>
-          <ul class="flex">
-            <li>Mario Cart</li>
-            <li>RoboRally</li>
-            <li>The Sims</li>
-            <li>Escape rooms</li>
-            <li>Sequence</li>
-            <li>A Game of Thrones</li>
-            <li>Tied Together</li>
-            <li>Ticket to Ride</li>
-            <li>Rundbold</li>
-            <li>Duel</li>
-          </ul>
-        </div>
-        <div>
-          <h3>... books and podcasts I can recommend:</h3>
-          <ul class="flex">
-            <li>The Dresden Files</li>
-            <li>Maj My's Pocast</li>
-            <li>The Thief</li>
-            <li>Radionauterne</li>
-            <li>ADHD & Autisme Podcast</li>
-            <li>Lord of the Rings</li>
-            <li>Outlander</li>
-            <li>Friends, Lovers and the Big Terrible Thing</li>
-            <li>The Hunger Games</li>
-            <li>Ultra Processed People</li>
-            <li>The Other Merlin</li>
-            <li>Handmaids Tale</li>
-            <li>The Stormlight Archives</li>
-            <li>Harry Potter</li>
-            <li>Gentleman Bastards</li>
-          </ul>
-        </div>
-      </main>
-      <aside>
-        <h2>Hi! I'm Julie and I am starting a new career!</h2>
+        <div  class="container-l">
+        <h1>Hi! I'm Julie and I am starting a new career!</h1>
         <img
-          class="rimg"
-          src="images/profile.jpg"
-          alt="Picture of Julie out sailing"
+        src="images/profile.jpg"
+        alt="Picture of Julie out sailing"
         />
-        <h2>My to-do list</h2>
+        <p>I am a Veterinary Physiotherapist specialized in ethical physiotherapy and training for horses. However, I am a person of many talents and have always loved math and playing around with webpages. So I decided to become a Software Engineer to have other career and life opportunities and dive deeper into interesting subjects.</p>
+        <p>Life is to be enjoyed; therefore I and my family have taken other paths than those chosen by the majority of the population here in Denmark. We try to spend our time on things that make us happy - fun work projects, family time, enriching sports and leuisure time as well as slow travelling.</p>
+        </div>
+        <div  class="container-l"><h2>My to-do list</h2>
         <ul>
           <li>Find a Software Engineer Trainee position with remote opportunities</li>
           <li>Learn to speak and understand basic French (so that I'm prepared for my 5 weeks of snowboarding in the French Alps this winter with 17+ other families)</li>
           <li>Become a Software Engineer (sometime in 2029 or so...)</li>
           <li>Enjoy life while doing it all</li>
         </ul>
-      </aside>
+        </div>
+      </main>
       <div id="footerimg"></div>
       <footer>
         <div>
-          <h3>This is an opportunity</h3>
+          <fieldset>
+          <legend><h3>This is how I like to spend my time</h3></legend>
           <p>
-            This website is part of an assignment on my path to become a
-            Software Engineer and I have been told that it is also an
-            opportunity to showcase myself. So here goes.
-          </p>
+  Want to know some fun facts about me? Read here ...
+</p>
+             <ul class="flex">
+              <li>Giving horses physiotherapy</li>
+              <li>Homeschooling</li>
+              <li>Playing games</li>
+              <li>Listening to audiobooks</li>
+              <li>MTB - but only the blue tracks</li>
+              <li>Studying Software Engineer</li>
+              <li>Planning travels</li>
+              <li>Watching Netflix</li>
+              <li>Going for walks with myself, my horse and/or family</li>
+              <li>Snowboarding in powder &#9996</li>
+            </ul>
+          </fieldset>
         </div>
         <div>
           <fieldset>
-            <legend>Give me a hint</legend>
-            <p>
+            <legend><h3>Talk to me!</h3></legend>
+            <div><p>
               Especially if you know of a good trainee opportunity for me!
             </p>
+            </div>
             <form action="/submit" method="post">
-            <label for="name">Your name: </label>
-            <input type="text" id="name" placeholder="Enter your name" required minlength="2" />
-            <label for="email">Your email: </label>
+              <div>
+              <label for="name">Your name: </label>
+              <input type="text" id="name" placeholder="Enter your name" required minlength="2" />
+            </div>
+            <div>
+              <label for="email">Your email: </label>
             <input type="email" id="email" placeholder="Enter your email" required />
+            </div>
+            <div>
+              <label for="range">How is your day going?</label>
+              <input type="range" id="range"/>
+            </div>
+            <div>
             <label type="message">How can I help you (or you help me)?</label>
-            <textarea id="message" placeholder="Write your message here">
+            <textarea id="message" placeholder="Write your message here...">
             </textarea>
+            </div>
+            <div>
             <button>Send the message!</button>
+            </div>
             </form>
           </fieldset>
         </div>
