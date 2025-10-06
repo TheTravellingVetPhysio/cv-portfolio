@@ -165,12 +165,6 @@ nav > ul {
   font-size: 1.3rem;
   margin: 0;
   padding: 0;
-
-  @media (min-width: 580px) {
-  }
-
-  @media (min-width: 1024px) {
-  }
 }
 
 nav a:link, nav a:visited {
