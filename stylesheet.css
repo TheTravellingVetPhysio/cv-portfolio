@@ -173,8 +173,7 @@ nav > ul {
   }
 }
 
-nav a:link,
-a:visited {
+nav a:link, nav a:visited {
   color: var(--light-color);
   font-style: none;
   text-decoration: none;
@@ -184,8 +183,7 @@ a:visited {
   border-radius: 5px;
 }
 
-nav a:hover,
-a:active {
+nav a:hover, nav a:active {
   color: var(--accent);
   text-decoration: none;
 }
