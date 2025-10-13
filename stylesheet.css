@@ -598,15 +598,9 @@ textarea {
 }
 
 /*
-GRID:
-grid-row-start /
-grid-column-start /
-grid-row-end /
-grid-column-end.
-
-
 Must work for these screen resolutions:  375px, 768px, 1024px
-Breakpoints: 580px | 1024px PADDING: shorthand top right bottom left - so clockwise
+Breakpoints: 580px | 1024px
+
 .kalam-light {
   font-family: "Kalam", cursive;
   font-weight: 300;
@@ -626,8 +620,5 @@ Breakpoints: 580px | 1024px PADDING: shorthand top right bottom left - so clockw
 }
 
 SPØRGSMÅL:
-- Baggrund: Hvordan får jeg min gradient til faktisk at nå bunden? Og kan jeg gøre sådan at gradienten kun når et bestemt stykke op fra bunden?
-- Paddings: Hvorfor er 10% ikke det samme i hhv. nav, aside/main og footer selvom de står til 10% i siden?
-- Flexbox: Hvorfor er min justify content ikke i midten, men lidt ovre i den ene side?
-- Header + navigation: Hvordan får jeg dem aligned vertikalt?
+- Bredder - kan jeg et centralt sted definere bredder til media query's?
 */
