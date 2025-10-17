@@ -204,7 +204,7 @@ nav a:hover, nav a:active {
   text-decoration: none;
 }
 
-nav .currentlink {
+nav a.currentlink {
   background-color: var(--dark-background);
 }
 
@@ -300,7 +300,7 @@ main {
   order: 4;
 
   @media (min-width: 580px) {
-    grid-area: 2 / 2 / 2 / 3;
+    grid-area: 2 / 2 / 3 / 3;
   }
 
   @media (min-width: 1024px) {
